@@ -6,41 +6,36 @@
 
 <div class="row" style="text-align: center">
    <div class="COA">
-      <a href="" >
+      <a href="/3rdsem/coa" >
         <img src="./yellow-folder.png" class="logo coa" alt="COA" /> 
       </a>
       <p>COA</p>
    </div>
    <div class="DSA">
-      <a href="">
+      <a href="/3rdsem/dsa">
         <img src="./pink-folder.png" class="logo dsa" alt="DSA" /> 
       </a>
       <p>DSA</p>
     </div>
     <div class="DSD">
-      <a href="">
+      <a href="/3rdsem/dsd">
         <img src="./liviolet-folder.png" class="logo dsd" alt="DSD" /> 
       </a>
       <p>DSD</p>
       </div> 
     <div class="OOPS">
-      <a href="" >
+      <a href="/3rdsem/oops" >
         <img src="./idkgreen-folder.png" class="logo oops" alt="OOPS" /> 
       </a>
       <p>OOPS</p>
       </div>
     <div class="MATHS">
-      <a href="">
+      <a href="/3rdsem/maths">
         <img src="./maybeblue-folder.png" class="logo maths" alt="maths" /> 
       </a>
       <p>MATHS</p>
       </div>
 </div>
-
-<footer class="footer">
-  <p class="footerfont">OSF Prototype</p>
-</footer>
-
 <style>
 
   .logo.coa:hover {
@@ -71,18 +66,5 @@
     align-items: center;
   }
 
-  .footerfont {
-    font-size: 0.8rem;
-    font-weight: 400;
-    color: #6c6c6d;
-  }
-
-  /*set the footer to bottom of the screen */
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
+  
 </style>
