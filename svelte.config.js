@@ -53,6 +53,5 @@ export default {
             base: '/CS-SRC',
             // assets: '/CS-SRC'
         }
-
     }
 };
