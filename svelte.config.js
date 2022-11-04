@@ -50,7 +50,7 @@ export default {
             strict: true
         }),
         paths: {
-            base: './src',
+            base: './',
             // assets: '/CS-SRC'
         }
     }
