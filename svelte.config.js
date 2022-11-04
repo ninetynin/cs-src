@@ -50,8 +50,8 @@ export default {
             strict: true
         }),
         paths: {
-            base: '/',
-            // assets: '/CS-SRC'
+            base: '/CS-SRC',
+            assets: '/CS-SRC/static'
         }
     }
 };
