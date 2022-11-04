@@ -5,7 +5,8 @@ import preprocess from 'svelte-preprocess';
 const config = {
     // Consult https://github.com/sveltejs/svelte-preprocess
     // for more information about preprocessors
-    preprocess: preprocess(),
+    // preprocess: preprocess(),
+    preprocess: preprocess[preprocess()],
 
     kit: {
         // adapter: adapter()
@@ -13,15 +14,13 @@ const config = {
             pages: 'build',
             assets: 'build',
             fallback: null,
-            precompress: false,
         }),
-        prerender: {
-            default: true
-        },
-        trailingSlash: 'always',
-        paths: {
-            base: '/cs-src',
-        },
+        // adapter: staticAdapter({
+        //     pages: 'build',
+        //     assets: 'build',
+        //     fallback: null,
+        // }),
+        target: '#svelte',
     }
 };
 
