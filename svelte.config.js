@@ -27,8 +27,7 @@ const config = {
         })
     },
     paths: {
-        base: dev ? '' : '/cs-src/build',
-        assets: dev ? '' : '/cs-src/static'
+        base: "/cs-src"
     },
     appdir: 'internal',
 };
