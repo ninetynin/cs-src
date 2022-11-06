@@ -1,8 +1,8 @@
-name: Build and Deploy to Pages from website branch
+name: Build and Deploy to Pages
 
 on:
   push:
-    branches: ["website"]
+    branches: ["main"]
 
   workflow_dispatch:
 
@@ -18,34 +18,19 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.0.1
-        with:
-          version: 6.15.1
-
-      - name: Set node version to 16
-        uses: actions/setup-node@v2
-        with:
-          node-version: 16
-          cache: 'pnpm'
-
-      - run: pnpm install
-
       - uses: actions/checkout@v3
       - uses: actions/configure-pages@v1
         id: pages
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: 'pnpm'
-      - run: pnpm run build
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v1
         with:
