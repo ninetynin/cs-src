@@ -29,6 +29,8 @@ jobs:
         with:
           node-version: 16
           cache: 'pnpm'
+      - run: pnpm install
+      - run: pnpm test
       - run: pnpm ci
       - run: pnpm run build
       - name: Upload artifact 
