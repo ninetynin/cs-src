@@ -1,6 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-import { dev } from '$app/environment';
+// import { dev } from '$app/environment';
 
 
 const dev = process.argv.includes('dev');
