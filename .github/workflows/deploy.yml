@@ -18,6 +18,28 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.15.1
+
+      - name: Set node version to 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: 'pnpm'
+
+      - run: pnpm install
+
+      - name: Run unit tests
+        run: pnpm run test -- --ci
+
   build:
     runs-on: ubuntu-latest
 
@@ -29,8 +51,6 @@ jobs:
         with:
           node-version: 16
           cache: 'pnpm'
-      - run: pnpm install --frozen-lockfile
-      - run: pnpm test
       - run: pnpm ci
       - run: pnpm run build
       - name: Upload artifact 
