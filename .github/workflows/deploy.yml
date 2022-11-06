@@ -19,8 +19,9 @@ concurrency:
 
 jobs:
 
-  test:
+  build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
 
@@ -37,13 +38,6 @@ jobs:
 
       - run: pnpm install
 
-      - name: Run unit tests
-        run: pnpm run test -- --ci
-
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
       - uses: actions/checkout@v3
       - uses: actions/configure-pages@v1
         id: pages
