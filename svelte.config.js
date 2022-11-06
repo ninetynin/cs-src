@@ -63,6 +63,8 @@
 import { dev } from '$app/environment';
 import adapter from '@sveltejs/adapter-static';
 
+const dev = process.argv.includes('dev')
+
 export default {
     kit: {
         adapter: adapter({
@@ -76,8 +78,8 @@ export default {
         })
     },
     paths: {
-        base: dev ? '' : '/CS-SRC',
-        assets: dev ? '' : '/CS-SRC/static'
+        base: dev ? '' : '/cs-src',
+        assets: dev ? '' : '/cs-src/static'
     },
     appdir: 'internal',
 };
