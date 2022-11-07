@@ -9,3 +9,4 @@
 - There is a heavy chance of links breaking as this is done manually from excel for the time being and not automatically
 
 If there are any issues and they are not present in Issues tab feel free to add them and if u wanna contribute pr's 😉
+[pls note if u r contributing pls focus on logic only improving design isnt the main thing here as seen in other repo's]
