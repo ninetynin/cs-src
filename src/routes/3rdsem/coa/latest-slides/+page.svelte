@@ -24,8 +24,7 @@
     let linkmprch = url + "14.%20microprogramming%20approach.pdf";
 </script>
 
-  <h1>COA_LATEST_SLIDES</h1>
-  <div class="linkfit">
+   <div class="linkfit">
     <Pdf url={link12} text="1 & 2" />
     <Pdf url={link34} text="3 & 4" />
     <Pdf url={link56} text="5 & 6" />

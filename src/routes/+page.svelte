@@ -1,34 +1,34 @@
-
-<h1>CSE MIT MANIPAL SRC</h1>
-
+<script>
+  import { base } from '$app/paths';
+</script>
 <div class="row" style="text-align: center">
    <div class="COA">
-      <a href="/3rdsem/coa" >
-        <img src="./yellow-folder.png" class="logo coa" alt="COA" /> 
+      <a href="{base}/3rdsem/coa" >
+        <img src="{base}/yellow-folder.png" class="logo coa" alt="COA" /> 
       </a>
       <p>COA</p>
    </div>
    <div class="DSA">
-      <a href="/3rdsem/dsa">
-        <img src="./pink-folder.png" class="logo dsa" alt="DSA" /> 
+      <a href="{base}/3rdsem/dsa">
+        <img src="{base}/pink-folder.png" class="logo dsa" alt="DSA" /> 
       </a>
       <p>DSA</p>
     </div>
     <div class="DSD">
-      <a href="/3rdsem/dsd">
-        <img src="./liviolet-folder.png" class="logo dsd" alt="DSD" /> 
+      <a href="{base}/3rdsem/dsd">
+        <img src="{base}/liviolet-folder.png" class="logo dsd" alt="DSD" /> 
       </a>
       <p>DSD</p>
       </div> 
     <div class="OOPS">
-      <a href="/3rdsem/oops" >
-        <img src="./idkgreen-folder.png" class="logo oops" alt="OOPS" /> 
+      <a href="{base}/3rdsem/oops" >
+        <img src="{base}/idkgreen-folder.png" class="logo oops" alt="OOPS" /> 
       </a>
       <p>OOPS</p>
       </div>
     <div class="MATHS">
-      <a href="/3rdsem/maths">
-        <img src="./maybeblue-folder.png" class="logo maths" alt="maths" /> 
+      <a href="{base}/3rdsem/maths">
+        <img src="{base}/maybeblue-folder.png" class="logo maths" alt="maths" /> 
       </a>
       <p>MATHS</p>
       </div>
