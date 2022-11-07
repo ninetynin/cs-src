@@ -8,6 +8,9 @@ const config = {
     preprocess: preprocess(),
 
     kit: {
+        paths: {
+            base: "/cs-src",
+        },
         adapter: static_adapter({
             pages: 'build',
             assets: 'build',
@@ -15,9 +18,6 @@ const config = {
             precompress: false,
             strict: true
         })
-    },
-    paths: {
-        base: "/cs-src",
     },
     appdir: 'internal',
 };
