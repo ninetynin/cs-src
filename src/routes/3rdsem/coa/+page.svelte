@@ -5,8 +5,8 @@
 
 <div class="row" style="text-align: center">
    <div class="latest-slides">
-      <a href="{base}/3rdsem/coa/latest-slides" >
-        <img src="{base}/idkgreen-folder.png" class="logo coa" alt="COA" /> 
+      <a href="cs-src/3rdsem/coa/latest-slides" >
+        <img src="cs-src/idkgreen-folder.png" class="logo coa" alt="COA" /> 
       </a>
       <p>latest-slides</p>
     </div>
