@@ -14,7 +14,7 @@ const config = {
     kit: {
         adapter: static_adapter({
             pages: 'build',
-            assets: 'static',
+            assets: 'build',
             fallback: null,
             precompress: false,
             strict: true
