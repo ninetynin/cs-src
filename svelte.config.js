@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 // // import adapter from '@sveltejs/adapter-auto';
 // // import preprocess from 'svelte-preprocess';
 
@@ -26,6 +27,12 @@
 
 // // export default config;
 
+=======
+import adapter from '@sveltejs/adapter-auto';
+import preprocess from 'svelte-preprocess';
+import { dev } from '$app/environment';
+import static_adapter from '@sveltejs/adapter-static';
+>>>>>>> Stashed changes
 
 // // svelte.config.js
 // import adapter from '@sveltejs/adapter-static';
@@ -78,8 +85,18 @@ export default {
         })
     },
     paths: {
+<<<<<<< Updated upstream
         base: dev ? '' : '/cs-src',
         assets: dev ? '' : '/cs-src/static'
     },
     appdir: 'internal',
 };
+=======
+        base: "/cs-src"
+            // base: dev ? "" : "/cs-src"
+    },
+    appdir: 'internal',
+};
+
+export default config;
+>>>>>>> Stashed changes
