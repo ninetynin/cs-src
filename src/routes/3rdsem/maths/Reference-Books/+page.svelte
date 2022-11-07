@@ -8,7 +8,7 @@
     let book5 = url + "Elements%20of%20Discrete%20Mathematics.pdf";
     let book6 = url + "Graph%20theory%20(Harary,%20Frank)%20(z-lib.org).pdf";
     let book7 = url + "Graph%20Theory%20with%20Applications%20to%20Engineering%20and%20Computer%20Science%20(Narsingh%20Deo)%20(z-lib.org).pdf";
-    let book8 = "Topics%20in%20Algebra.pdf";
+    let book8 = url + "Topics%20in%20Algebra.pdf";
 </script>
 
    <div class="linkfit">
