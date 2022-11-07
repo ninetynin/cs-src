@@ -6,7 +6,7 @@
   <slot />
   
   <footer class="footer">
-    <p class="footerfont">OSF Prototype</p>
+    <p class="footerfont">Built with love from section-c💖😶‍🌫️</p>
   </footer>
 
   <style>
