@@ -14,11 +14,11 @@
         <li><a href="/3rdsem/dsd">DSD</a></li>
         <li><a href="/3rdsem/oops">OOPS</a></li>
         <li><a href="/3rdsem/maths">MATHS</a></li>
-      <li><a href="/4thsem">4th Sem</a></li>
+      <!-- <li><a href="/4thsem">4th Sem</a></li>
       <li><a href="/5thsem">5th Sem</a></li>
       <li><a href="/6thsem">6th Sem</a></li>
       <li><a href="/7thsem">7th Sem</a></li>
-      <li><a href="/8thsem">8th Sem</a></li>
+      <li><a href="/8thsem">8th Sem</a></li> -->
     </ul>
   </nav>
   <slot> </slot>
