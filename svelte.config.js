@@ -1,6 +1,6 @@
-// import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
-// import { dev } from '$app/environment';
+import { dev } from '$app/environment';
 import static_adapter from '@sveltejs/adapter-static';
 
 
@@ -35,7 +35,8 @@ const config = {
         })
     },
     paths: {
-        base: "/cs-src"
+        // base: "/cs-src"
+        base: dev ? "" : "/cs-src"
     },
     appdir: 'internal',
 };
