@@ -6,7 +6,7 @@
 
 <div>
     <a href={url} >
-        <img src="{base}/pdf-svgrepo-com.svg" class="logo coa" alt="COA PDF" /> 
+        <img src="{base}/docx.png" class="logo coa" alt="COA PDF" /> 
     </a>
     <p class="text">{text}</p>
 </div>

@@ -6,13 +6,13 @@
 
 <div>
     <a href={url} >
-        <img src="{base}/pdf-svgrepo-com.svg" class="logo coa" alt="COA PDF" /> 
+        <img src="{base}/pptx.svg" class="logo coa" alt="COA PDF" /> 
     </a>
-    <p class="text">{text}</p>
+    <p>{text}</p>
 </div>
 
 <style> 
     .logo.coa:hover {
-      filter: drop-shadow(0 0 2em #E2574C);
+      filter: drop-shadow(0 0 2em #FFCA26);
     }
 </style>
