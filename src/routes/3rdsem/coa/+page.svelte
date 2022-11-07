@@ -4,16 +4,26 @@
 <h1>coa</h1>
 
 <div class="row" style="text-align: center">
-   <div class="latest-slides">
-      <a href="{base}/3rdsem/coa/latest-slides" >
-        <img src="{base}/idkgreen-folder.png" class="logo coa" alt="COA" /> 
+   <div class="slides">
+      <a href="{base}/3rdsem/coa/slides" >
+        <img src="{base}/pink-folder.png" class="logo pink" alt="COA" /> 
       </a>
-      <p>latest-slides</p>
+      <p>slides</p>
     </div>
-    <div class="others">
-      <a href="{base}/3rdsem/coa/others" >
-        <img src="{base}/yaviolet-folder.png" class="logo coa" alt="COA" /> 
+    <div class="Reference-books">
+      <a href="{base}/3rdsem/coa/reference-books" >
+        <img src="{base}/maybeblue-folder.png" class="logo blue" alt="COA" /> 
       </a>
-      <p>..</p>
+      <p>Reference-books</p>
+    </div>
+    <div class="notes">
+      <a href="{base}/3rdsem/coa/notes" >
+        <img src="{base}/liblack-folder.png" class="logo black" alt="COA" /> 
+      </a>
+      <p>notes</p>
     </div>
 </div>
+
+<style>
+  /*TODO*/
+</style>
