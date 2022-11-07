@@ -1,11 +1,13 @@
-<!-- <script></script> -->
+<script>
+  import { base } from '$app/paths';
+</script>
 
 <h1>CSE MIT MANIPAL SRC</h1>
 
 <div class="row" style="text-align: center">
    <div class="COA">
-      <a href="/3rdsem/coa" >
-        <img src="./yellow-folder.png" class="logo coa" alt="COA" /> 
+      <a href="{base}/3rdsem/coa" >
+        <img src="{base}/yellow-folder.png" class="logo coa" alt="COA" /> 
       </a>
       <p>COA</p>
    </div>
