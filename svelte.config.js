@@ -21,7 +21,7 @@ const config = {
         })
     },
     paths: {
-        base: "/cs-src/build",
+        base: "/cs-src/",
         // assets: "/cs-src/static"
         // base: dev ? "" : "/cs-src"
     },
