@@ -1,6 +1,6 @@
 <!-- <script></script> -->
 
-<h1>CS-src</h1>
+<h1>CSE MIT MANIPAL SRC</h1>
 
 <div class="row" style="text-align: center">
    <div class="COA">

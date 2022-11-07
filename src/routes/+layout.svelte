@@ -3,13 +3,15 @@
 </script>
 
 <main class="container">
-  <slot />
-  
+  <slot> </slot>
+</main>
+
   <footer class="footer">
-    <p class="footerfont">Built with love from section-c💖😶‍🌫️</p>
+    <p class="footerfont">Built with 💖 from section-c 😶‍🌫️</p>
   </footer>
 
-  <style>
+
+<style>
     .footerfont {
     font-size: 0.8rem;
     font-weight: 400;
@@ -25,4 +27,3 @@
     text-align: center;
   }
   </style>
-</main>
