@@ -25,7 +25,7 @@ const config = {
         // assets: "/cs-src/static"
         // base: dev ? "" : "/cs-src"
     },
-    // appdir: 'internal',
+    appdir: 'internal',
 };
 
 export default config;
